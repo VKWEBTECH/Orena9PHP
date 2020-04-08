@@ -1,0 +1,304 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Material Design for Bootstrap fonts and icons -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons">
+
+    <!-- Material Design for Bootstrap CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/bootstrap-material-design@4.1.1/dist/css/bootstrap-material-design.min.css" integrity="sha384-wXznGJNEXNG1NFsbm0ugrLFMQPWswR3lds2VeinahP8N0zJw9VWSopbjv2x7WCvX" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+  </head>
+  <body class="container">
+    <h1>Hello, world!</h1>
+	  
+	  <div class="row">
+	  <div class="col-md-10">
+<form>
+  <div class="form-group">
+    <label for="exampleInputEmail1" class="bmd-label-floating">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1">
+    <span class="bmd-help">We'll never share your email with anyone else.</span>
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1" class="bmd-label-floating">Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword1">
+  </div>
+  <div class="form-group">
+    <label for="exampleSelect1" class="bmd-label-floating">Example select</label>
+    <select class="form-control" id="exampleSelect1">
+      <option>1</option>
+      <option>2</option>
+      <option>3</option>
+      <option>4</option>
+      <option>5</option>
+    </select>
+  </div>
+  <div class="form-group">
+    <label for="exampleSelect2" class="bmd-label-floating">Example multiple select</label>
+    <select multiple class="form-control" id="exampleSelect2">
+      <option>1</option>
+      <option>2</option>
+      <option>3</option>
+      <option>4</option>
+      <option>5</option>
+    </select>
+  </div>
+  <div class="form-group">
+    <label for="exampleTextarea" class="bmd-label-floating">Example textarea</label>
+    <textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
+  </div>
+  <div class="form-group">
+    <label for="exampleInputFile" class="bmd-label-floating">File input</label>
+    <input type="file" class="form-control-file" id="exampleInputFile">
+    <small class="text-muted">This is some placeholder block-level help text for the above input. It's a bit lighter and easily wraps to a new line.</small>
+  </div>
+  <div class="radio">
+    <label>
+      <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+      Option one is this and that&mdash;be sure to include why it's great
+    </label>
+  </div>
+  <div class="radio">
+    <label>
+      <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+      Option two can be something else and selecting it will deselect option one
+    </label>
+  </div>
+  <div class="radio disabled">
+    <label>
+      <input type="radio" name="optionsRadios" id="optionsRadios3" value="option3" disabled>
+      Option three is disabled
+    </label>
+  </div>
+  <div class="checkbox">
+    <label>
+      <input type="checkbox"> Check me out
+    </label>
+  </div>
+  <button class="btn btn-default">Cancel</button>
+  <button type="submit" class="btn btn-primary btn-raised">Submit</button>
+</form>
+		  
+		<br/>  <br/><br/><br/>
+		  
+		  
+		  <form>
+  <div class="form-group"> <!-- left unspecified, .bmd-form-group will be automatically added (inspect the code) -->
+    <label for="formGroupExampleInput" class="bmd-label-floating">Example label</label>
+    <input type="text" class="form-control" id="formGroupExampleInput">
+  </div>
+  <div class="form-group bmd-form-group"> <!-- manually specified --> 
+    <label for="formGroupExampleInput2" class="bmd-label-floating">Another label</label>
+    <input type="text" class="form-control" id="formGroupExampleInput2">
+  </div>
+</form>
+		  
+		  <br/>  <br/><br/><br/>
+		  
+		  <form class="form-inline">
+  <div class="form-group">
+    <label for="exampleInputName2" class="bmd-label-floating">Name</label>
+    <input type="text" class="form-control" id="exampleInputName2">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputEmail2" class="bmd-label-floating">Email</label>
+    <input type="email" class="form-control" id="exampleInputEmail2">
+  </div>
+  <span class="form-group bmd-form-group"> <!-- needed to match padding for floating labels -->
+    <button type="submit" class="btn btn-primary">Send invitation</button>
+  </span>
+</form>
+		  
+		  <br/>  <br/><br/><br/>
+		  
+		  <form>
+  <div class="form-group">
+    <label for="exampleInputEmail1" class="bmd-label-floating">Email address (two help blocks)</label>
+    <input type="email" class="form-control" id="exampleInputEmail1">
+    <span class="bmd-help">We'll never share your email with anyone else.</span>
+    <span class="bmd-help">And this is probably from a second plugin showing in a non-optimal way</span>
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1" class="bmd-label-floating">Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword1">
+  </div>  
+</form>
+		  
+		  
+		<br/>  <br/><br/><br/>  
+		  
+		  
+		  
+		  <form>
+  <fieldset class="form-group">
+    <label for="exampleInputEmail1" class="bmd-label-static">label-static</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="placeholder text">
+    <span class="bmd-help">We'll never share your email with anyone else.</span>
+  </fieldset>
+  <fieldset class="form-group">
+    <label for="exampleInputEmail1" class="bmd-label-floating">label-floating</label>
+    <input type="email" class="form-control" id="exampleInputEmail1">
+    <span class="bmd-help">We'll never share your email with anyone else.</span>
+  </fieldset>
+  <fieldset class="form-group">
+    <label for="exampleInputEmail1" class="bmd-label-placeholder">label-placeholder</label>
+    <input type="email" class="form-control" id="exampleInputEmail1">
+    <span class="bmd-help">We'll never share your email with anyone else.</span>
+  </fieldset>
+</form>
+		  
+		  <br/>  <br/><br/><br/>
+		  
+		  
+		  <div class="bmd-form-group bmd-collapse-inline pull-xs-right">
+  <button class="btn bmd-btn-icon" for="search" data-toggle="collapse" data-target="#collapse-search" aria-expanded="false" aria-controls="collapse-search">
+    <i class="material-icons">search</i>
+  </button>  
+  <span id="collapse-search" class="collapse">
+    <input class="form-control" type="text" id="search" placeholder="Enter your query...">
+  </span>
+</div>
+		  
+		  
+		  
+		  <form>
+  <div class="switch">
+    <label>
+      <input type="checkbox" checked>
+      Wi-Fi
+    </label>
+  </div>
+  <div class="switch">
+    <label>
+      <input type="checkbox">
+      Bluetooth
+    </label>
+  </div>
+  <div class="switch">
+    <label>
+      <input type="checkbox" disabled>
+      This is disabled
+    </label>
+  </div>
+</form>
+		  
+		  
+		  
+		  <form>
+  <div class="radio">
+    <label>
+      <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+      Option one is this and that&mdash;be sure to include why it's great
+    </label>
+  </div>
+  <div class="radio">
+    <label>
+      <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+      Option two can be something else and selecting it will deselect option one
+    </label>
+  </div>
+  <div class="radio disabled">
+    <label>
+      <input type="radio" name="optionsRadios" id="optionsRadios3" value="option3" disabled>
+      Option three is disabled
+    </label>
+  </div>
+  
+  <label class="radio-inline">
+    <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> 1
+  </label>
+  <label class="radio-inline">
+    <input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"> 2
+  </label>
+  <label class="radio-inline">
+    <input type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3"> 3
+  </label>   
+</form>
+		  
+		  
+		  
+		  
+		  
+		  <form>  
+  <div class="checkbox">
+    <label>
+      <input type="checkbox"> Check me out
+    </label>
+  </div>   
+  <div class="checkbox">
+    <label>
+      <input type="checkbox" value="" checked>
+      I'm selected because I seem like the safe choice
+    </label>
+  </div>
+  <div class="checkbox disabled">
+    <label>
+      <input type="checkbox" value="" disabled>
+      Option is disabled because it is scary
+    </label>
+  </div>    
+  <label class="checkbox-inline">
+    <input type="checkbox" id="inlineCheckbox1" value="option1"> 1
+  </label>
+  <label class="checkbox-inline">
+    <input type="checkbox" id="inlineCheckbox2" value="option2"> 2
+  </label>
+  <label class="checkbox-inline">
+    <input type="checkbox" id="inlineCheckbox3" value="option3"> 3
+  </label>  
+</form>
+		  
+		  
+		 <div class="input-group">
+    <div class="input-group-prepend">
+      <span class="input-group-text">
+          <i class="material-icons">group</i>
+      </span>
+    </div>
+    <input type="text" class="form-control" placeholder="With Material Icons">
+  </div> 
+		 
+		  
+		  <!-- Material outline input -->
+<div class="md-form md-outline">
+  <input type="text" id="form1" class="form-control">
+  <label for="form1">Example label</label>
+</div>
+		  
+		  
+		  
+		  <br/>  <br/><br/><br/><br/>  <br/><br/><br/>
+	</div>
+	  </div>
+	  
+	  
+	  
+	  
+	  
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/popper.js@1.12.6/dist/umd/popper.js" integrity="sha384-fA23ZRQ3G/J53mElWqVJEGJzU0sTs+SvzG8fXVWP+kJQ1lwFAOkcUOysnlKJC33U" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/bootstrap-material-design@4.1.1/dist/js/bootstrap-material-design.js" integrity="sha384-CauSuKpEqAFajSpkdjv3z9t8E7RlpJ1UP0lKM/+NdtSarroVKu069AlsRPKkFBz9" crossorigin="anonymous"></script>
+    <script>$(document).ready(function() { $('body').bootstrapMaterialDesign(); });</script>
+	  
+	  
+	  
+	  
+	  
+	  <script>
+	    // clear field value once closed
+  $(function() {
+    $('#collapse-search').on('hidden.bs.collapse', function() {
+      $('#search').val('')
+    })
+  });
+	  </script>
+  </body>
+</html>
